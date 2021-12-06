@@ -1,0 +1,17 @@
+body{
+    text-align: center;
+    background-color: aqua;
+    
+}
+.heading{
+    padding: 60px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  font-family: 'Anton', sans-serif;
+}
+.dob{
+ width: 20rem;
+  height: 2rem
+  
+  

@@ -1,12 +1,28 @@
-var birthDate = document.querySelector("#birth-date");
+const birthDate = document.querySelector("#birth-date");
 var luckyNo = document.querySelector("#lucky-No");
 var checkButton = document.querySelector("#check-Button");
-const dateofBirth = birthDate.value
- var sumArray = dateofBirth.split('-');
-var year = sumArray[0];
+var message = document.querySelector("#message")
 
+const noArray = [];
 checkButton.addEventListener( "click",checkLuckyOne);
+
 function checkLuckyOne(){
-console.log(dateofBirth);
-   
+ const dateofBirth = birthDate.value
+doB = dateofBirth.split("-"); 
+const year = Number(doB[0]);
+const Month = Number(doB[1]);
+const day = Number(doB[2]);
+
+var sum = (year)+(Month)+(day);
+console.log(sum);
+console.lo
+message.innerText ="";
+
+if (sum%luckyNo.value==0)
+{
+message.innerText = "urs is a lucky no"
+}
+else{
+    message.innerText =" not a lucky no"
+}
 }
