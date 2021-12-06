@@ -4,18 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width", initial-scale=1.0">
+   <link rel="stylesheet" href="styles.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
     <title>luky bIrthday</title>
+    
 </head>
-<body>
-   <head>is your bIrthday lucky?</head>
+<body class ="body">
+   <div class= "heading"><head>Is your Birth Date lucky?</head></div>
    <p></p>
-   <label>Enter Your Birth Date</label>
-   <div><input id="birth-date"type="Date"></div>
+   <label>Date of Birth</label>
+   <div><input class="dob" id="birth-date"type="Date"></div>
    <p></p>
-   <label for="luckyNo">Enter your Lucky Number</label>
-      <div><input id = "lucky-No" type="number" ></div>
+   <label for="luckyNo">Lucky Number</label>
+      <div><input placeholder="Enter your lucky no" id = "lucky-No" type="number" ></div>
       <button id="check-Button">check</button>
-      <p></p> 
+      <p id="message"></p> 
       <script src = "app.js" > </script>
 </body>
 
