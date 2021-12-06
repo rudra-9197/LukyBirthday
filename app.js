@@ -20,9 +20,9 @@ message.innerText ="";
 
 if (sum%luckyNo.value==0)
 {
-message.innerText = "urs is a lucky no"
+message.innerText = "ohhh!!!....your Date of birth is lucky😊"
 }
 else{
-    message.innerText =" not a lucky no"
+    message.innerText ="Not a lucky one☹️...just for fun"
 }
 }
