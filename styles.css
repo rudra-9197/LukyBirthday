@@ -46,29 +46,31 @@ button {
   border-radius: 1rem;
 }
 
-
 label {
   color: white;
   font-size: xx-large;
   margin-top: auto;
 }
-.message{
-    font-family: 'Smooch', cursive;
-    font-size: xx-large;
-    display: block;
-    color: rgb(240, 224, 8);
+.message {
+  font-family: "Smooch", cursive;
+  font-size: xx-large;
+  display: block;
+  color: rgb(240, 224, 8);
 }
-.footer-list{
-    display: flex;
-    justify-content: center;
-    padding: 2px;
-    font-size: medium;
-    margin-top: 1rem;
-    ;
-    
+.footer-list {
+  display: flex;
+  justify-content: center;
+  padding: 2px;
+  font-size: medium;
 }
-.right{
-    margin-top: 5rem;
+.right {
+  margin-top: 5rem;
+}
+.store {
+  color: yellow;
+  font-size: 1.5rem;
 }
 
-  
+.footDiv {
+  margin-top: 2rem;
+}
